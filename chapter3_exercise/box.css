@@ -1,0 +1,38 @@
+.position {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+.fab {
+  font-size: 32px;
+}
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin: 30px;
+  padding: 30px;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 5px;
+  border-top-style: solid;
+  border-top-color: yellow;
+  border-right-style: double;
+  border-right-color: white;
+  border-bottom-style: dashed;
+  border-bottom-color: green;
+  border-left-style: dotted;
+  border-left-color: purple;
+}
+
+#red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
