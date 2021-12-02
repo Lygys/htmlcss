@@ -17,20 +17,18 @@
   padding-left: 20px;
   color: #848282;
 }
-.course-box {
-  width: 840px;
-  padding-top: 50px:
-  padding-bottom: 50px; 
 
+main {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 840px;
+}
+.course-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #848282;
 }
 
-.course-box(:last-child) {
-
+.course-box:first-child {
+  padding-top: 0;
 }
-
-.course {
-  padding: 30px;
-}
-
-.course-text
