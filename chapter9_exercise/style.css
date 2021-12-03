@@ -17,6 +17,10 @@ main {
   background-color: #ff9a4b;
 }
 
+.grey {
+  background-color: #aaaaaa;
+}
+
 .content-box {
   width: 960px;
   margin: 50px auto;
@@ -38,9 +42,9 @@ main {
 
 .content-image {
   height: 150px;
-  padding: 10px 10px 15px;
+  margin: 10px 10px 15px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step1 {
@@ -62,6 +66,11 @@ main {
   color: white;
 }
 
-.content-item-text {
+.content-item-title {
+  margin-left: 10px;
   margin-bottom: 5px;
+}
+
+.content-item-text {
+  margin: 0 10px 10px;
 }
