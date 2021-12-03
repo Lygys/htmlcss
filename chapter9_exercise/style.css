@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 main {
   width: 100%;
 }
@@ -16,11 +22,14 @@ main {
   margin: 50px auto;
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 
 .content-item {
+  width: 300px;
   margin-right: 30px;
   background-color: #eeeeee;
+  position: relative;
 }
 
 .content-item:last-child {
@@ -28,12 +37,28 @@ main {
 }
 
 .content-image {
-  padding: 10px 15px 10px;
+  height: 150px;
+  padding: 10px 10px 15px;
   background-size: cover;
   background-position: center;
 }
 
+.step1 {
+  background-image: url(img/flow01.png);
+}
+
+.step2 {
+  background-image: url(img/flow02.png);
+}
+
+.step3 {
+  background-image: url(img/flow03.png);
+}
+
 .content-image-text {
+  position: absolute;
+  top: 0;
+  left: 0;
   color: white;
 }
 
