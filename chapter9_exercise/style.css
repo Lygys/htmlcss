@@ -18,14 +18,25 @@ main {
   justify-content: center;
 }
 
-.content-image {
+.content-item {
   margin-right: 30px;
+  background-color: #eeeeee;
+}
+
+.content-item:last-child {
+  margin-right: 0;
+}
+
+.content-image {
   padding: 10px 15px 10px;
   background-size: cover;
   background-position: center;
 }
 
-.content-image:last-child {
-  margin-right: 0;
+.content-image-text {
+  color: white;
 }
 
+.content-item-text {
+  margin-bottom: 5px;
+}
